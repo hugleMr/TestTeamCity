@@ -1,0 +1,6 @@
+framework module Pods_TeamCityDemo_macOS {
+  umbrella header "Pods-TeamCityDemo macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
