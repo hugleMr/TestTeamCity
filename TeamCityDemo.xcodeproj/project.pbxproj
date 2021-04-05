@@ -38,6 +38,11 @@
 		0A4D0982261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
 		0A4D0983261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
 		0A4D0984261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
+		198521804E5351B3C01E847D /* Pods_TeamCityDemo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF057A1E8F749828EBDF0AF1 /* Pods_TeamCityDemo_iOS.framework */; };
+		1BE1754CDA88B3A01B781E0F /* Pods_TeamCityDemo_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E473E913605C3C87B6214D /* Pods_TeamCityDemo_tvOS.framework */; };
+		774B74D89D2C81E76EBDBB98 /* Pods_TeamCityDemo_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2922307E603566F9328EF0 /* Pods_TeamCityDemo_macOS.framework */; };
+		C4170F3625F005892B33B821 /* Pods_TeamCityDemo_watchOS_App_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3878A89741C107BE2F160DA3 /* Pods_TeamCityDemo_watchOS_App_Extension.framework */; };
+		FE820875A748D67F644626C2 /* Pods_TeamCityDemo_watchOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7E0BF4BD1A751C5B8D8296 /* Pods_TeamCityDemo_watchOS_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +117,21 @@
 		0A4D0972261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A4D0974261B5CC400346A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A4D0975261B5CC400346A27 /* TeamCityDemo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamCityDemo_macOS.entitlements; sourceTree = "<group>"; };
+		190D1A8401DAD109435B97DE /* Pods-TeamCityDemo macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo macOS.debug.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo macOS/Pods-TeamCityDemo macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1A2ED3A9CC1F95A12239CE /* Pods-TeamCityDemo watchOS App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo watchOS App Extension.release.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo watchOS App Extension/Pods-TeamCityDemo watchOS App Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3878A89741C107BE2F160DA3 /* Pods_TeamCityDemo_watchOS_App_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityDemo_watchOS_App_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40522C8D7E605C9966F4F77C /* Pods-TeamCityDemo watchOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo watchOS App.release.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo watchOS App/Pods-TeamCityDemo watchOS App.release.xcconfig"; sourceTree = "<group>"; };
+		71453BA412C793BC7F8D4BC5 /* Pods-TeamCityDemo tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo tvOS/Pods-TeamCityDemo tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8A6E10D6BE350DD9C705127E /* Pods-TeamCityDemo iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo iOS.debug.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo iOS/Pods-TeamCityDemo iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		942221A190C96C91873D1922 /* Pods-TeamCityDemo watchOS App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo watchOS App Extension.debug.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo watchOS App Extension/Pods-TeamCityDemo watchOS App Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		99F0C966315C9818FDD3DBBD /* Pods-TeamCityDemo iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo iOS.release.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo iOS/Pods-TeamCityDemo iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9F97CD37C878EFA70C1FDDAE /* Pods-TeamCityDemo macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo macOS.release.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo macOS/Pods-TeamCityDemo macOS.release.xcconfig"; sourceTree = "<group>"; };
+		A8C7770D4E81B228FB90450F /* Pods-TeamCityDemo tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo tvOS.release.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo tvOS/Pods-TeamCityDemo tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C425946B30B37076DC6A317C /* Pods-TeamCityDemo watchOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityDemo watchOS App.debug.xcconfig"; path = "Target Support Files/Pods-TeamCityDemo watchOS App/Pods-TeamCityDemo watchOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		CC2922307E603566F9328EF0 /* Pods_TeamCityDemo_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityDemo_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF057A1E8F749828EBDF0AF1 /* Pods_TeamCityDemo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityDemo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E473E913605C3C87B6214D /* Pods_TeamCityDemo_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityDemo_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7E0BF4BD1A751C5B8D8296 /* Pods_TeamCityDemo_watchOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityDemo_watchOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198521804E5351B3C01E847D /* Pods_TeamCityDemo_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4170F3625F005892B33B821 /* Pods_TeamCityDemo_watchOS_App_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE1754CDA88B3A01B781E0F /* Pods_TeamCityDemo_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774B74D89D2C81E76EBDBB98 /* Pods_TeamCityDemo_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB19AA01EE1E9087CC19C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE820875A748D67F644626C2 /* Pods_TeamCityDemo_watchOS_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +188,8 @@
 				0A4D095B261B5CC400346A27 /* TeamCityDemo tvOS */,
 				0A4D096C261B5CC400346A27 /* TeamCityDemo macOS */,
 				0A4D0930261B5CC400346A27 /* Products */,
+				D526BCFB9A64F4DD20ECD24B /* Pods */,
+				829A5338221E01703481D54E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -237,6 +271,36 @@
 			path = "TeamCityDemo macOS";
 			sourceTree = "<group>";
 		};
+		829A5338221E01703481D54E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF057A1E8F749828EBDF0AF1 /* Pods_TeamCityDemo_iOS.framework */,
+				CC2922307E603566F9328EF0 /* Pods_TeamCityDemo_macOS.framework */,
+				F5E473E913605C3C87B6214D /* Pods_TeamCityDemo_tvOS.framework */,
+				FA7E0BF4BD1A751C5B8D8296 /* Pods_TeamCityDemo_watchOS_App.framework */,
+				3878A89741C107BE2F160DA3 /* Pods_TeamCityDemo_watchOS_App_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D526BCFB9A64F4DD20ECD24B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E10D6BE350DD9C705127E /* Pods-TeamCityDemo iOS.debug.xcconfig */,
+				99F0C966315C9818FDD3DBBD /* Pods-TeamCityDemo iOS.release.xcconfig */,
+				190D1A8401DAD109435B97DE /* Pods-TeamCityDemo macOS.debug.xcconfig */,
+				9F97CD37C878EFA70C1FDDAE /* Pods-TeamCityDemo macOS.release.xcconfig */,
+				71453BA412C793BC7F8D4BC5 /* Pods-TeamCityDemo tvOS.debug.xcconfig */,
+				A8C7770D4E81B228FB90450F /* Pods-TeamCityDemo tvOS.release.xcconfig */,
+				C425946B30B37076DC6A317C /* Pods-TeamCityDemo watchOS App.debug.xcconfig */,
+				40522C8D7E605C9966F4F77C /* Pods-TeamCityDemo watchOS App.release.xcconfig */,
+				942221A190C96C91873D1922 /* Pods-TeamCityDemo watchOS App Extension.debug.xcconfig */,
+				2F1A2ED3A9CC1F95A12239CE /* Pods-TeamCityDemo watchOS App Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4D098F261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo iOS" */;
 			buildPhases = (
+				5C97103809A4BBFB88D317B2 /* [CP] Check Pods Manifest.lock */,
 				0A4D092B261B5CC400346A27 /* Sources */,
 				0A4D092C261B5CC400346A27 /* Frameworks */,
 				0A4D092D261B5CC400346A27 /* Resources */,
@@ -263,8 +328,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4D098B261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo watchOS App" */;
 			buildPhases = (
+				C4A4CF745B9A425055716DD1 /* [CP] Check Pods Manifest.lock */,
 				0A4D093D261B5CC400346A27 /* Resources */,
 				0A4D098A261B5CC400346A27 /* Embed App Extensions */,
+				7FB19AA01EE1E9087CC19C1C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4D0987261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo watchOS App Extension" */;
 			buildPhases = (
+				A872C1146D87A926381DD51C /* [CP] Check Pods Manifest.lock */,
 				0A4D0948261B5CC400346A27 /* Sources */,
 				0A4D0949261B5CC400346A27 /* Frameworks */,
 				0A4D094A261B5CC400346A27 /* Resources */,
@@ -297,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4D0992261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo tvOS" */;
 			buildPhases = (
+				FDBB20A047832D82A86EF2F2 /* [CP] Check Pods Manifest.lock */,
 				0A4D0956261B5CC400346A27 /* Sources */,
 				0A4D0957261B5CC400346A27 /* Frameworks */,
 				0A4D0958261B5CC400346A27 /* Resources */,
@@ -314,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4D0995261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo macOS" */;
 			buildPhases = (
+				08E87AEEAF1BB5BB8EA6B679 /* [CP] Check Pods Manifest.lock */,
 				0A4D0967261B5CC400346A27 /* Sources */,
 				0A4D0968261B5CC400346A27 /* Frameworks */,
 				0A4D0969261B5CC400346A27 /* Resources */,
@@ -429,6 +499,119 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E87AEEAF1BB5BB8EA6B679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamCityDemo macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C97103809A4BBFB88D317B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamCityDemo iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A872C1146D87A926381DD51C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamCityDemo watchOS App Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A4CF745B9A425055716DD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamCityDemo watchOS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDBB20A047832D82A86EF2F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamCityDemo tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A4D092B261B5CC400346A27 /* Sources */ = {
@@ -651,6 +834,7 @@
 		};
 		0A4D0988261B5CC400346A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942221A190C96C91873D1922 /* Pods-TeamCityDemo watchOS App Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TeamCityDemo watchOS App Extension/Info.plist";
@@ -671,6 +855,7 @@
 		};
 		0A4D0989261B5CC400346A27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1A2ED3A9CC1F95A12239CE /* Pods-TeamCityDemo watchOS App Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TeamCityDemo watchOS App Extension/Info.plist";
@@ -692,6 +877,7 @@
 		};
 		0A4D098C261B5CC400346A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C425946B30B37076DC6A317C /* Pods-TeamCityDemo watchOS App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -711,6 +897,7 @@
 		};
 		0A4D098D261B5CC400346A27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40522C8D7E605C9966F4F77C /* Pods-TeamCityDemo watchOS App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -731,6 +918,7 @@
 		};
 		0A4D0990261B5CC400346A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6E10D6BE350DD9C705127E /* Pods-TeamCityDemo iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -751,6 +939,7 @@
 		};
 		0A4D0991261B5CC400346A27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F0C966315C9818FDD3DBBD /* Pods-TeamCityDemo iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -772,6 +961,7 @@
 		};
 		0A4D0993261B5CC400346A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71453BA412C793BC7F8D4BC5 /* Pods-TeamCityDemo tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -792,6 +982,7 @@
 		};
 		0A4D0994261B5CC400346A27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C7770D4E81B228FB90450F /* Pods-TeamCityDemo tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -813,6 +1004,7 @@
 		};
 		0A4D0996261B5CC400346A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190D1A8401DAD109435B97DE /* Pods-TeamCityDemo macOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -834,6 +1026,7 @@
 		};
 		0A4D0997261B5CC400346A27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F97CD37C878EFA70C1FDDAE /* Pods-TeamCityDemo macOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

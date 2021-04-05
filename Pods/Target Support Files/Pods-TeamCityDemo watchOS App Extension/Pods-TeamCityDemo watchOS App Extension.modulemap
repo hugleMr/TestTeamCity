@@ -1,0 +1,6 @@
+framework module Pods_TeamCityDemo_watchOS_App_Extension {
+  umbrella header "Pods-TeamCityDemo watchOS App Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}
