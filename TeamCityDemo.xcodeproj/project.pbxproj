@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4D0933261B5CC400346A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0932261B5CC400346A27 /* AppDelegate.swift */; };
+		0A4D0935261B5CC400346A27 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0934261B5CC400346A27 /* GameViewController.swift */; };
+		0A4D0938261B5CC400346A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0936261B5CC400346A27 /* Main.storyboard */; };
+		0A4D093B261B5CC400346A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0939261B5CC400346A27 /* LaunchScreen.storyboard */; };
+		0A4D0940261B5CC400346A27 /* TeamCityDemo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A4D093F261B5CC400346A27 /* TeamCityDemo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A4D0946261B5CC400346A27 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0944261B5CC400346A27 /* Interface.storyboard */; };
+		0A4D094D261B5CC400346A27 /* TeamCityDemo Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A4D094C261B5CC400346A27 /* TeamCityDemo Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A4D0952261B5CC400346A27 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0951261B5CC400346A27 /* InterfaceController.swift */; };
+		0A4D0954261B5CC400346A27 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0953261B5CC400346A27 /* ExtensionDelegate.swift */; };
+		0A4D095D261B5CC400346A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D095C261B5CC400346A27 /* AppDelegate.swift */; };
+		0A4D095F261B5CC400346A27 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D095E261B5CC400346A27 /* GameViewController.swift */; };
+		0A4D0962261B5CC400346A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0960261B5CC400346A27 /* Main.storyboard */; };
+		0A4D0965261B5CC400346A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0963261B5CC400346A27 /* LaunchScreen.storyboard */; };
+		0A4D096E261B5CC400346A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D096D261B5CC400346A27 /* AppDelegate.swift */; };
+		0A4D0970261B5CC400346A27 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D096F261B5CC400346A27 /* GameViewController.swift */; };
+		0A4D0973261B5CC400346A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0971261B5CC400346A27 /* Main.storyboard */; };
+		0A4D0976261B5CC400346A27 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0927261B5CC200346A27 /* Actions.sks */; };
+		0A4D0977261B5CC400346A27 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0927261B5CC200346A27 /* Actions.sks */; };
+		0A4D0978261B5CC400346A27 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0927261B5CC200346A27 /* Actions.sks */; };
+		0A4D0979261B5CC400346A27 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0928261B5CC200346A27 /* GameScene.sks */; };
+		0A4D097A261B5CC400346A27 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0928261B5CC200346A27 /* GameScene.sks */; };
+		0A4D097B261B5CC400346A27 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0928261B5CC200346A27 /* GameScene.sks */; };
+		0A4D097C261B5CC400346A27 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0928261B5CC200346A27 /* GameScene.sks */; };
+		0A4D097D261B5CC400346A27 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0929261B5CC200346A27 /* GameScene.swift */; };
+		0A4D097E261B5CC400346A27 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0929261B5CC200346A27 /* GameScene.swift */; };
+		0A4D097F261B5CC400346A27 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0929261B5CC200346A27 /* GameScene.swift */; };
+		0A4D0980261B5CC400346A27 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0929261B5CC200346A27 /* GameScene.swift */; };
+		0A4D0981261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
+		0A4D0982261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
+		0A4D0983261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
+		0A4D0984261B5CC400346A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D092A261B5CC400346A27 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4D0941261B5CC400346A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4D0922261B5CC200346A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4D093E261B5CC400346A27;
+			remoteInfo = "TeamCityDemo watchOS App";
+		};
+		0A4D094E261B5CC400346A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A4D0922261B5CC200346A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A4D094B261B5CC400346A27;
+			remoteInfo = "TeamCityDemo watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A4D098A261B5CC400346A27 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A4D094D261B5CC400346A27 /* TeamCityDemo Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D098E261B5CC400346A27 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0A4D0940261B5CC400346A27 /* TeamCityDemo.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A4D0927261B5CC200346A27 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0A4D0928261B5CC200346A27 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0A4D0929261B5CC200346A27 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0A4D092A261B5CC400346A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4D092F261B5CC400346A27 /* TeamCityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D0932261B5CC400346A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4D0934261B5CC400346A27 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A4D0937261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4D093A261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4D093C261B5CC400346A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D093F261B5CC400346A27 /* TeamCityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D0945261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A4D0947261B5CC400346A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D094C261B5CC400346A27 /* TeamCityDemo Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TeamCityDemo Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D0951261B5CC400346A27 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A4D0953261B5CC400346A27 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0A4D0955261B5CC400346A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D095A261B5CC400346A27 /* TeamCityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D095C261B5CC400346A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4D095E261B5CC400346A27 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A4D0961261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4D0964261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A4D0966261B5CC400346A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D096B261B5CC400346A27 /* TeamCityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4D096D261B5CC400346A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A4D096F261B5CC400346A27 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0A4D0972261B5CC400346A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A4D0974261B5CC400346A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4D0975261B5CC400346A27 /* TeamCityDemo_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamCityDemo_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4D092C261B5CC400346A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0949261B5CC400346A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0957261B5CC400346A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0968261B5CC400346A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4D0921261B5CC200346A27 = {
+			isa = PBXGroup;
+			children = (
+				0A4D0926261B5CC200346A27 /* TeamCityDemo Shared */,
+				0A4D0931261B5CC400346A27 /* TeamCityDemo iOS */,
+				0A4D0943261B5CC400346A27 /* TeamCityDemo watchOS App */,
+				0A4D0950261B5CC400346A27 /* TeamCityDemo watchOS App Extension */,
+				0A4D095B261B5CC400346A27 /* TeamCityDemo tvOS */,
+				0A4D096C261B5CC400346A27 /* TeamCityDemo macOS */,
+				0A4D0930261B5CC400346A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4D0926261B5CC200346A27 /* TeamCityDemo Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0927261B5CC200346A27 /* Actions.sks */,
+				0A4D0928261B5CC200346A27 /* GameScene.sks */,
+				0A4D0929261B5CC200346A27 /* GameScene.swift */,
+				0A4D092A261B5CC400346A27 /* Assets.xcassets */,
+			);
+			path = "TeamCityDemo Shared";
+			sourceTree = "<group>";
+		};
+		0A4D0930261B5CC400346A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D092F261B5CC400346A27 /* TeamCityDemo.app */,
+				0A4D093F261B5CC400346A27 /* TeamCityDemo.app */,
+				0A4D094C261B5CC400346A27 /* TeamCityDemo Extension.appex */,
+				0A4D095A261B5CC400346A27 /* TeamCityDemo.app */,
+				0A4D096B261B5CC400346A27 /* TeamCityDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4D0931261B5CC400346A27 /* TeamCityDemo iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0932261B5CC400346A27 /* AppDelegate.swift */,
+				0A4D0934261B5CC400346A27 /* GameViewController.swift */,
+				0A4D0936261B5CC400346A27 /* Main.storyboard */,
+				0A4D0939261B5CC400346A27 /* LaunchScreen.storyboard */,
+				0A4D093C261B5CC400346A27 /* Info.plist */,
+			);
+			path = "TeamCityDemo iOS";
+			sourceTree = "<group>";
+		};
+		0A4D0943261B5CC400346A27 /* TeamCityDemo watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0944261B5CC400346A27 /* Interface.storyboard */,
+				0A4D0947261B5CC400346A27 /* Info.plist */,
+			);
+			path = "TeamCityDemo watchOS App";
+			sourceTree = "<group>";
+		};
+		0A4D0950261B5CC400346A27 /* TeamCityDemo watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D0951261B5CC400346A27 /* InterfaceController.swift */,
+				0A4D0953261B5CC400346A27 /* ExtensionDelegate.swift */,
+				0A4D0955261B5CC400346A27 /* Info.plist */,
+			);
+			path = "TeamCityDemo watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		0A4D095B261B5CC400346A27 /* TeamCityDemo tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D095C261B5CC400346A27 /* AppDelegate.swift */,
+				0A4D095E261B5CC400346A27 /* GameViewController.swift */,
+				0A4D0960261B5CC400346A27 /* Main.storyboard */,
+				0A4D0963261B5CC400346A27 /* LaunchScreen.storyboard */,
+				0A4D0966261B5CC400346A27 /* Info.plist */,
+			);
+			path = "TeamCityDemo tvOS";
+			sourceTree = "<group>";
+		};
+		0A4D096C261B5CC400346A27 /* TeamCityDemo macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D096D261B5CC400346A27 /* AppDelegate.swift */,
+				0A4D096F261B5CC400346A27 /* GameViewController.swift */,
+				0A4D0971261B5CC400346A27 /* Main.storyboard */,
+				0A4D0974261B5CC400346A27 /* Info.plist */,
+				0A4D0975261B5CC400346A27 /* TeamCityDemo_macOS.entitlements */,
+			);
+			path = "TeamCityDemo macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4D092E261B5CC400346A27 /* TeamCityDemo iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D098F261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo iOS" */;
+			buildPhases = (
+				0A4D092B261B5CC400346A27 /* Sources */,
+				0A4D092C261B5CC400346A27 /* Frameworks */,
+				0A4D092D261B5CC400346A27 /* Resources */,
+				0A4D098E261B5CC400346A27 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4D0942261B5CC400346A27 /* PBXTargetDependency */,
+			);
+			name = "TeamCityDemo iOS";
+			productName = "TeamCityDemo iOS";
+			productReference = 0A4D092F261B5CC400346A27 /* TeamCityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4D093E261B5CC400346A27 /* TeamCityDemo watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D098B261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo watchOS App" */;
+			buildPhases = (
+				0A4D093D261B5CC400346A27 /* Resources */,
+				0A4D098A261B5CC400346A27 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A4D094F261B5CC400346A27 /* PBXTargetDependency */,
+			);
+			name = "TeamCityDemo watchOS App";
+			productName = "TeamCityDemo watchOS App";
+			productReference = 0A4D093F261B5CC400346A27 /* TeamCityDemo.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0A4D094B261B5CC400346A27 /* TeamCityDemo watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D0987261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo watchOS App Extension" */;
+			buildPhases = (
+				0A4D0948261B5CC400346A27 /* Sources */,
+				0A4D0949261B5CC400346A27 /* Frameworks */,
+				0A4D094A261B5CC400346A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamCityDemo watchOS App Extension";
+			productName = "TeamCityDemo watchOS App Extension";
+			productReference = 0A4D094C261B5CC400346A27 /* TeamCityDemo Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		0A4D0959261B5CC400346A27 /* TeamCityDemo tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D0992261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo tvOS" */;
+			buildPhases = (
+				0A4D0956261B5CC400346A27 /* Sources */,
+				0A4D0957261B5CC400346A27 /* Frameworks */,
+				0A4D0958261B5CC400346A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamCityDemo tvOS";
+			productName = "TeamCityDemo tvOS";
+			productReference = 0A4D095A261B5CC400346A27 /* TeamCityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A4D096A261B5CC400346A27 /* TeamCityDemo macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4D0995261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo macOS" */;
+			buildPhases = (
+				0A4D0967261B5CC400346A27 /* Sources */,
+				0A4D0968261B5CC400346A27 /* Frameworks */,
+				0A4D0969261B5CC400346A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeamCityDemo macOS";
+			productName = "TeamCityDemo macOS";
+			productReference = 0A4D096B261B5CC400346A27 /* TeamCityDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4D0922261B5CC200346A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0A4D092E261B5CC400346A27 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0A4D093E261B5CC400346A27 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0A4D094B261B5CC400346A27 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0A4D0959261B5CC400346A27 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0A4D096A261B5CC400346A27 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0A4D0925261B5CC200346A27 /* Build configuration list for PBXProject "TeamCityDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A4D0921261B5CC200346A27;
+			productRefGroup = 0A4D0930261B5CC400346A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4D092E261B5CC400346A27 /* TeamCityDemo iOS */,
+				0A4D093E261B5CC400346A27 /* TeamCityDemo watchOS App */,
+				0A4D094B261B5CC400346A27 /* TeamCityDemo watchOS App Extension */,
+				0A4D0959261B5CC400346A27 /* TeamCityDemo tvOS */,
+				0A4D096A261B5CC400346A27 /* TeamCityDemo macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4D092D261B5CC400346A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D0979261B5CC400346A27 /* GameScene.sks in Resources */,
+				0A4D0938261B5CC400346A27 /* Main.storyboard in Resources */,
+				0A4D0976261B5CC400346A27 /* Actions.sks in Resources */,
+				0A4D093B261B5CC400346A27 /* LaunchScreen.storyboard in Resources */,
+				0A4D0981261B5CC400346A27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D093D261B5CC400346A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D0982261B5CC400346A27 /* Assets.xcassets in Resources */,
+				0A4D0946261B5CC400346A27 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D094A261B5CC400346A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D097A261B5CC400346A27 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0958261B5CC400346A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D097B261B5CC400346A27 /* GameScene.sks in Resources */,
+				0A4D0962261B5CC400346A27 /* Main.storyboard in Resources */,
+				0A4D0977261B5CC400346A27 /* Actions.sks in Resources */,
+				0A4D0965261B5CC400346A27 /* LaunchScreen.storyboard in Resources */,
+				0A4D0983261B5CC400346A27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0969261B5CC400346A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D0973261B5CC400346A27 /* Main.storyboard in Resources */,
+				0A4D097C261B5CC400346A27 /* GameScene.sks in Resources */,
+				0A4D0984261B5CC400346A27 /* Assets.xcassets in Resources */,
+				0A4D0978261B5CC400346A27 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4D092B261B5CC400346A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D097D261B5CC400346A27 /* GameScene.swift in Sources */,
+				0A4D0935261B5CC400346A27 /* GameViewController.swift in Sources */,
+				0A4D0933261B5CC400346A27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0948261B5CC400346A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D097E261B5CC400346A27 /* GameScene.swift in Sources */,
+				0A4D0954261B5CC400346A27 /* ExtensionDelegate.swift in Sources */,
+				0A4D0952261B5CC400346A27 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0956261B5CC400346A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D097F261B5CC400346A27 /* GameScene.swift in Sources */,
+				0A4D095F261B5CC400346A27 /* GameViewController.swift in Sources */,
+				0A4D095D261B5CC400346A27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A4D0967261B5CC400346A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D0980261B5CC400346A27 /* GameScene.swift in Sources */,
+				0A4D0970261B5CC400346A27 /* GameViewController.swift in Sources */,
+				0A4D096E261B5CC400346A27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4D0942261B5CC400346A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4D093E261B5CC400346A27 /* TeamCityDemo watchOS App */;
+			targetProxy = 0A4D0941261B5CC400346A27 /* PBXContainerItemProxy */;
+		};
+		0A4D094F261B5CC400346A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A4D094B261B5CC400346A27 /* TeamCityDemo watchOS App Extension */;
+			targetProxy = 0A4D094E261B5CC400346A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A4D0936261B5CC400346A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D0937261B5CC400346A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4D0939261B5CC400346A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D093A261B5CC400346A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4D0944261B5CC400346A27 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D0945261B5CC400346A27 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4D0960261B5CC400346A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D0961261B5CC400346A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4D0963261B5CC400346A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D0964261B5CC400346A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A4D0971261B5CC400346A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4D0972261B5CC400346A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4D0985261B5CC400346A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A4D0986261B5CC400346A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0A4D0988261B5CC400346A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TeamCityDemo watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "TeamCityDemo Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		0A4D0989261B5CC400346A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TeamCityDemo watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "TeamCityDemo Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		0A4D098C261B5CC400346A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = TeamCityDemo_Extension;
+				INFOPLIST_FILE = "TeamCityDemo watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo.watchkitapp;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		0A4D098D261B5CC400346A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = TeamCityDemo_Extension;
+				INFOPLIST_FILE = "TeamCityDemo watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo.watchkitapp;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		0A4D0990261B5CC400346A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TeamCityDemo iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A4D0991261B5CC400346A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TeamCityDemo iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4D0993261B5CC400346A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TeamCityDemo tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		0A4D0994261B5CC400346A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TeamCityDemo tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A4D0996261B5CC400346A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TeamCityDemo macOS/TeamCityDemo_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TeamCityDemo macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A4D0997261B5CC400346A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TeamCityDemo macOS/TeamCityDemo_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TeamCityDemo macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.demo.TeamCityDemo;
+				PRODUCT_NAME = TeamCityDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4D0925261B5CC200346A27 /* Build configuration list for PBXProject "TeamCityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0985261B5CC400346A27 /* Debug */,
+				0A4D0986261B5CC400346A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D0987261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0988261B5CC400346A27 /* Debug */,
+				0A4D0989261B5CC400346A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D098B261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D098C261B5CC400346A27 /* Debug */,
+				0A4D098D261B5CC400346A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D098F261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0990261B5CC400346A27 /* Debug */,
+				0A4D0991261B5CC400346A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D0992261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0993261B5CC400346A27 /* Debug */,
+				0A4D0994261B5CC400346A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4D0995261B5CC400346A27 /* Build configuration list for PBXNativeTarget "TeamCityDemo macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4D0996261B5CC400346A27 /* Debug */,
+				0A4D0997261B5CC400346A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4D0922261B5CC200346A27 /* Project object */;
+}
