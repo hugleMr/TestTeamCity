@@ -22,7 +22,7 @@ platform :ios do
 	before_all do
 		cocoapods(
       repo_update: false,
-      try_repo_update_on_error : true,
+      try_repo_update_on_error: true,
       use_bundle_exec: true
     )
     clear_dirived_data
