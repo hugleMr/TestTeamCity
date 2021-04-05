@@ -30,7 +30,7 @@ platform :ios do
 
   desc "Run all the tests"
 
-  lane: build_and_test do
+  lane :build_and_test do
     begin 
       scan(
         workspace: workspace,
